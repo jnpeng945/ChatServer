@@ -6,7 +6,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jnpeng/chatServer/src/server/chatserver.cpp" "/home/jnpeng/chatServer/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
   "/home/jnpeng/chatServer/src/server/chatservice.cpp" "/home/jnpeng/chatServer/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
+  "/home/jnpeng/chatServer/src/server/db/db.cpp" "/home/jnpeng/chatServer/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
   "/home/jnpeng/chatServer/src/server/main.cpp" "/home/jnpeng/chatServer/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
+  "/home/jnpeng/chatServer/src/server/model/friendmodel.cpp" "/home/jnpeng/chatServer/build/src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o"
+  "/home/jnpeng/chatServer/src/server/model/groupmodel.cpp" "/home/jnpeng/chatServer/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o"
+  "/home/jnpeng/chatServer/src/server/model/offlinemessagemodel.cpp" "/home/jnpeng/chatServer/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o"
+  "/home/jnpeng/chatServer/src/server/model/usermodel.cpp" "/home/jnpeng/chatServer/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,6 +19,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../include/server"
+  "../include/server/db"
+  "../include/server/model"
   "../thirdparty"
   )
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jnpeng/chatServer/include -I/home/jnpeng/chatServer/include/server -I/home/jnpeng/chatServer/thirdparty 
+CXX_INCLUDES = -I/home/jnpeng/chatServer/include -I/home/jnpeng/chatServer/include/server -I/home/jnpeng/chatServer/include/server/db -I/home/jnpeng/chatServer/include/server/model -I/home/jnpeng/chatServer/thirdparty 
 
